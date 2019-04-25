@@ -1,10 +1,9 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import './App.css';
-import Nav from './components/Nav/Nav.js';
+import Navbar from './components/Navbar/Navbar.js';
 
 function App() {
-  return <Nav />
+    return <Navbar / >
 }
 
 export default App;
