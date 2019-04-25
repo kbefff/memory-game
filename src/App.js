@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar/Navbar.js';
+import Nav from './components/Nav';
 
 function App() {
-    return <Navbar / >
+    return <Nav / >
 }
 
 export default App;
