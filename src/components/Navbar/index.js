@@ -4,16 +4,18 @@ import "./style.css";
 const Navbar = props => (
     <nav>
 
-        <ul className="nav nav-tabs">
-            <li className="brand animated lightSpeedIn">
+        <ul className="nav">
+            <li className="brand">
                 <a href="/">{props.title}</a>
+                <p id="rw">{props.rightWrong}</p>
             </li>
 
-            <li className="nav-item" id="rw">{props.rightWrong}</li>
+            <li className="socres">
+                <h4 id="cur-sco">Current Score: {props.score}</h4>
 
-            <li className="nav-item" id="cur-sco">Current Score: {props.score}</li>
+                <h4 id="top-sco">Top Score: {props.topScore}</h4>
+            </li>
 
-            <li className="nav-item" id="top-sco">Top Score: {props.topScore}</li>
         </ul>
     </nav>
 

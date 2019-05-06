@@ -10,23 +10,29 @@ nav {
 
 a {
     color: #fe20d9;
+    font-size: 50px;
 }
-
 a:hover {
-    color: #fe20d9;
+    color: #24041e;
     text-decoration: none;
 }
 
 nav li {
     display: inline-block;
     padding: 20px 10px;
-    width: 35%;
+    width: 45%;
 }
 
 ul {
     display: flex;
     align-items: center;
 }
+
+.scores{
+    display: flex;
+    align-items: right;
+}
+
 
 @media only screen and (max-width: 750px) {
 

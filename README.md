@@ -8,4 +8,4 @@
 
 #### Built with React. Check it out [here](https://kbefff.github.io/memory-game/).
 
-![screenshot](public/screenshot.png)
+<!-- ![screenshot](public/screenshot.png) -->
