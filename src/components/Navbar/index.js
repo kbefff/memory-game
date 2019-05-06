@@ -5,6 +5,22 @@ import "./style.css";
 
 function Navbar() {
   return (
+
+  //   <nav>
+  //   <ul>
+  //     <li className="brand animated lightSpeedIn">
+  //       <a href="/simpsons-react-clicky/">{props.title}</a>
+  //     </li>
+
+  //     <li id="rw">{props.rightWrong}</li>
+
+  //     <li id="cur-sco">Current Score: {props.score}</li>
+
+  //     <li id="top-sco">Top Score: {props.topScore}</li>
+  //   </ul>
+  // </nav>
+
+
     <ul className="nav nav-tabs">
       <li className="nav-item">
         <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link"}>
