@@ -63,7 +63,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      rightWrong: "Wrong!",
       clicked: []
     });
     this.handleShuffle();
